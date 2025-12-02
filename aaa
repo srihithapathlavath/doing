@@ -1,0 +1,96 @@
+Git Commands (Complete List)
+Configuration
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+Initialize
+git init
+Status
+git status
+Add
+git add filename
+git add .
+Commit
+git commit -m "message"
+Log
+git log
+git log --oneline
+Diff
+git diff
+git diff --staged
+Remote
+git remote add origin
+git remote -v
+git remote remove origin
+Clone
+git clone
+Push & Pull
+git push -u origin main
+git push
+git pull
+Branching
+git branch
+git branch branchname
+git switch branchname
+git switch -c newbranch
+git merge branchname
+git branch -d branchname
+Stash
+git stash
+git stash list
+git stash apply
+Reset / Undo
+git reset HEAD filename
+git reset --soft HEAD~1
+git restore filename
+Advanced
+git rebase branchname
+git cherry-pick
+git tag v1.0
+git push origin v1.0
+Tree
+git ls-tree -r HEAD
+
+
+
+
+
+
+
+
+sudo apt update
+sudo apt-get install docker.io
+sudo apt install git
+sudo apt install nano
+
+git init
+git add .
+
+git commit -m "First commit"
+git remote add origin <Your_Repo_URL>
+git push -u origin main
+
+git clone <Your_Repo_URL>
+
+nano Dockerfile
+
+FROM nginx:alpine
+COPY . /usr/share/nginx/html
+
+sudo docker build -t my-web-app .
+sudo docker run -d -p 80:80 my-web-app
+
+sudo docker ps
+sudo docker stop <Container_ID>
+
+
+
+
+
+
+
+
+
+
+
+
+
